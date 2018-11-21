@@ -10,10 +10,10 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: confluence
       MYSQL_USER: confluence
-      MYSQL_PASSWORD: confluence123
+      MYSQL_PASSWORD: confluence
   confluence:
     build: .
     ports:
