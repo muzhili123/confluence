@@ -8,6 +8,9 @@ git clone git@github.com:muzhili123/confluence.git
 ##### 启动docker-compose
 sudo docker-compose up -d
 
+##### 配置mysql连接地址
+/etc/hosts 文件 添加 confluence:mysql 127.0.0.1:3306
+
 ##### 获取授权码
 ./crack/iNViSiBLE/keygen.sh
 
